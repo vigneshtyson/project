@@ -1,0 +1,19 @@
+.container{
+    width: 100%a;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jumbotron{
+    width: 75%;
+    height: 70vh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub_container{
+    width: 60%;
+    height: 60vh;
+}

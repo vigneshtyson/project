@@ -1,0 +1,51 @@
+.container_page{
+    width: 100%;
+    min-height: 100vh;
+    background-color: lightgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    align-items: center;
+}
+.table_container{
+    margin-top: 30px;
+    width: 70%;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+table,tr,td,th,thead,tbody{
+    border: 1px solid gray;
+    padding: 5px;
+}
+.row{
+    margin-bottom: 30px;
+    width: 100px;
+}
+.button_container{
+    margin-top: 30px;
+}
+.btn{
+    background-color: goldenrod;
+    border: none;
+    outline: none;
+    width: 50px;
+    margin: 3px;
+}
+.prev{
+    background-color: green;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100px;
+    color: white;
+}
+select{
+    background-color: rgb(224, 177, 73);
+    border: none;
+    outline: none;
+    padding: 5px;
+
+}

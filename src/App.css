@@ -1,0 +1,44 @@
+.App_container{
+    width: 100%;
+    height: 100vh;
+}
+.Total_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.link_container{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(218, 216, 216);
+    box-shadow: 5px 5px 5px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link_subcontainer{
+   width: 70%;
+   height: 70%;
+   background-color: rgba(0, 0, 0, 0.514);
+   display: flex;
+   justify-content: space-evenly;
+   flex-direction: column;
+   align-items: center;
+}
+.routes_container{
+    width: 80%;
+    height: 100%;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.link:hover{
+    background-color: rgb(90, 90, 218);
+    display: inline-block;
+    width: 200px;
+    color: black;
+    padding: 8px;
+    transition: all 0.2s linear;
+}

@@ -1,0 +1,50 @@
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+  }
+  div>.total{
+    
+    width:400px;
+    height: auto;
+    border: 2px solid black;
+    background: rgb(22, 21, 21);
+  }
+  div>.total>div>input{
+    width: 98%;
+    height: 100px;
+    outline: none;
+    border: none;
+    background: rgb(22, 21, 21);
+    color: white;
+    font-size: 40px;
+    text-align: right;
+  
+  }
+  
+  
+  div>.total>.button>.key>button{
+    width: 70px;
+    height:70px;
+    margin:5px ;
+    background: rgb(22, 21, 21);
+    border: 1px solid white;
+    outline: none;
+    color: aliceblue;
+    font-size: 28px;
+    font-family:'Trebuchet MS';
+  }
+  div>.total>.button>.key>button:hover{
+    background: rgb(54, 52, 52);;
+  
+  }
+  .img{
+      width: 50px;
+      height: 50px;
+  }
+  
+  
+  
